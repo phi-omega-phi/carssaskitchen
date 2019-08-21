@@ -1,0 +1,17 @@
+header {
+	background: linear-gradient(180deg, rgba(150,150,150,0.3),rgba(255,255,255,0.1)); 
+}
+
+header a {
+	color: #ffffff;
+	font-family: yahei;
+}
+
+header i {
+	color: #ffffff;
+}
+
+#banner-image {
+	width: 100%;
+	height: auto;
+}
