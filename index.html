@@ -6,17 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
     <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="js/headroom.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style/main.css">
 </head>
 
-<body>
-    <div class="mdui-appbar mdui-shadow-0">
+<body class="mdui-theme-accent-orange">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-shadow-0">
         <div class="mdui-toolbar mdui-color-theme">
             <a href="index.html" class="mdui-typo-headline mdui-text-uppercase"><strong>Carssas</strong>Kitchen</a>
             <div class="mdui-toolbar-spacer"></div>
             <a href="index.html" class="mdui-btn mdui-text-uppercase">home</a>
-            <a href="index.html#location" class="mdui-btn mdui-text-uppercase">location</a>
+            <a href="index.html#address" class="mdui-btn mdui-text-uppercase">location</a>
             <a href="javascript:;" class="mdui-btn mdui-text-uppercase">about</a>
             <a href="javascript:;" class="mdui-btn mdui-text-uppercase">gift cards</a>
             <a href="javascript:;" class="mdui-btn mdui-text-uppercase">menu</a>
@@ -33,20 +35,25 @@
             <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon fab fa-twitter"></i></a>
             <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon fab fa-instagram"></i></a>
         </div>
-        <div id="address-aside">
+        <div id="address">
             <img id="address-image"
                 src="https://raw.githubusercontent.com/phi-omega-phi/carssaskitchen/master/image/POP_Logo.png">
-            <div id="address-aside-right" class="mdui-typo">
+            <div id="address-right" class="mdui-typo">
                 <h1>CARSSAS KITCHEN</h1>
                 <h1><small>Just tell your driver</small></h1>
                 <h1><small>The Address</small></h1>
                 <hr>
-                <h4><a class="link">Google Map</a> This Joint</h4>
+                <h4><a href="javascript:;">Google Map</a> This Joint</h4>
                 <hr>
                 <p>
                     The description
                 </p>
             </div>
+        </div>
+        <div id="about-aside" class="mudi-typo">
+            <h1>SCP-173</h1>
+            <b>Euclid</b>
+            <p>Moved to Site-19 1993. Origin is as of yet unknown. It is constructed from concrete and rebar with traces of Krylon brand spray paint. SCP-173 is animate and extremely hostile. The object cannot move while within a direct line of sight. Line of sight must not be broken at any time with SCP-173. Personnel assigned to enter container are instructed to alert one another before blinking. Object is reported to attack by snapping the neck at the base of the skull, or by strangulation. In the event of an attack, personnel are to observe Class 4 hazardous object containment procedures.</p>
         </div>
 </body>
 
