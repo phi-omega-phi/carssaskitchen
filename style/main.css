@@ -22,7 +22,7 @@
 	z-index: -1;
 }
 
-#address-aside {
+#address {
 	width: 100%;
 	height: 600px;
 	overflow: hidden;
@@ -34,8 +34,8 @@
 	float: left;
 }
 
-#address-aside-right {
+#address-right {
 	height: 100%;
 	width: 35%;
-	float: left;
+    float: left;
 }
