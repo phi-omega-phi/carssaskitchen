@@ -43,3 +43,27 @@ body {
 	width: 35%;
     float: left;
 }
+#about-aside {
+	height: auto;
+	width: 70%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#about-aside h1 {
+	font-size: 300% !important;
+	font-weight: 300 !important;
+}
+
+#about-aside b {
+	font-size: 180%;
+	font-weight: 400 !important;
+}
+
+#about-aside p {
+	font-size: 130%;
+	color: rgba(100,100,100); !important;
+	line-height: 1.5;
+	font-weight: 350 !important;
+	text-indent: 3%;
+}
