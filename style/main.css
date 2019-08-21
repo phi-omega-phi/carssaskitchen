@@ -3,12 +3,8 @@ header {
 }
 
 header a {
-	color: #ffffff;
+	color: #ffffff !important;
 	font-family: yahei;
-}
-
-header i {
-	color: #ffffff;
 }
 
 #banner-image {
