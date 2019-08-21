@@ -21,3 +21,21 @@
 	top: -64px;
 	z-index: -1;
 }
+
+#address-aside {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+#address-image {
+	height: 100%;
+	width: auto;
+	float: left;
+}
+
+#address-aside-right {
+	height: 100%;
+	width: 35%;
+	float: left;
+}
