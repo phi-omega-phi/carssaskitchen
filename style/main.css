@@ -1,13 +1,24 @@
 header {
-	background: linear-gradient(180deg, rgba(150,150,150,0.7),rgba(255,255,255,0.1)); 
+	background: linear-gradient(180deg, rgba(150,150,150,0.3),rgba(255,255,255,0.1)); 
 }
 
 header a {
-	color: #ffffff !important;
+	color: white !important;
 	font-family: yahei;
+}
+
+#share-center {
+	position: relative;
+	top : -120px;
+	text-align: center;
+    color: white;
+    transform: scale(1.2, 1.2);
 }
 
 #banner-img {
 	width: 100%;
 	height: auto;
+	position: relative;
+	top: -64px;
+	z-index: -1;
 }
