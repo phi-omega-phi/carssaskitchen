@@ -62,7 +62,7 @@ body {
 
 #about-aside p {
 	font-size: 130%;
-	color: rgba(100,100,100); !important;
+	color: rgba(100,100,100) !important;
 	line-height: 1.5;
 	font-weight: 350 !important;
 	text-indent: 3%;
