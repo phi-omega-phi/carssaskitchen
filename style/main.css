@@ -1,5 +1,5 @@
 header {
-	background: linear-gradient(180deg, rgba(150,150,150,0.3),rgba(255,255,255,0.1)); 
+	background: linear-gradient(180deg, rgba(150,150,150,0.7),rgba(255,255,255,0.1)); 
 }
 
 header a {
@@ -7,7 +7,7 @@ header a {
 	font-family: yahei;
 }
 
-#banner-image {
+#banner-img {
 	width: 100%;
 	height: auto;
 }
