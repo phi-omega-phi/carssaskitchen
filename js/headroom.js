@@ -36,6 +36,16 @@ function updateHeader() {
     }
 }
 
+function updateScrollTop() {
+    let progress = getScrollProgress();
+    let fab = document.getElementById('scroll-top');
+    if (progress.pixel == 0) {
+        fab.classList.add('mdui-fab-hide');
+    } else {
+        fab.classList.remove('mdui-fab-hide');
+    }
+}
+
 function scrollAccelerator() {
     let progress = getScrollProgress();
     let banner_img = document.getElementById('banner-img');
@@ -45,9 +55,9 @@ function scrollAccelerator() {
 (function() {
     window.addEventListener('load', function() {
         updateHeader();
-        window.addEventListener('scroll', function() {
-            updateHeader();
-            scrollAccelerator();
-        });
-    });
+        updateScrollTop();
+        window.addEventListener('scroll', updateHeader, false);
+        window.addEventListener('scroll', updateScrollTop, false);
+        window.addEventListener('scroll', scrollAccelerator, false);
+    }, false);
 })();
