@@ -40,8 +40,6 @@ body {
 #banner-img {
 	width: 100%;
 	height: auto;
-	position: relative;
-	top: -100px;
 }
 
 #address {
@@ -82,5 +80,5 @@ body {
 
 .share-btn-item:hover {
 	background: orange;
-	color: white;
+	color: white !important;
 }
