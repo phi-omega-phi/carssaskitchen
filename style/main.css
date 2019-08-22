@@ -1,5 +1,15 @@
+html,
 body {
-    padding-bottom: 200px;
+	scroll-behavior: smooth;
+}
+
+body {
+	padding-bottom: 200px;
+}
+
+.link::before {
+	background-color: #FF5722 !important;
+	color: #FF5722 !important;
 }
 
 .mdui-appbar a {
@@ -9,7 +19,7 @@ body {
 
 #share-center {
 	position: relative;
-	top : -120px;
+	top : -60px;
 	text-align: center;
     color: white;
 }
@@ -18,49 +28,45 @@ body {
     transform: scale(1.2, 1.2);
 }
 
+#banner {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	z-index: -1;
+}
+
 #banner-img {
 	width: 100%;
 	height: auto;
 	position: relative;
-	top: -64px;
-	z-index: -1;
+	top: -100px;
 }
 
 #address {
-	width: 100%;
-	height: 600px;
+	height: 500px;
 	overflow: hidden;
 }
 
-#address-image {
-	height: 100%;
-	width: auto;
-	float: left;
-}
-
-#address-right {
-	height: 100%;
-	width: 35%;
-    float: left;
-}
-#about-aside {
+#about {
 	height: auto;
 	width: 70%;
 	max-width: 900px;
 	margin: 0 auto;
 }
 
-#about-aside h1 {
+#about h1 {
 	font-size: 300% !important;
 	font-weight: 300 !important;
 }
 
-#about-aside b {
+#about b {
 	font-size: 180%;
 	font-weight: 400 !important;
 }
 
-#about-aside p {
+#about p {
 	font-size: 130%;
 	color: rgba(100,100,100) !important;
 	line-height: 1.5;
