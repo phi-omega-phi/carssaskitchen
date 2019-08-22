@@ -67,3 +67,14 @@ body {
 	font-weight: 350 !important;
 	text-indent: 3%;
 }
+
+.share-btn-item {
+	background: rgba(255,255,255,1);
+	color: orange;
+	transition: 0.25s;
+}
+
+.share-btn-item:hover {
+	background: orange;
+	color: white;
+}
