@@ -36,9 +36,18 @@ function updateHeader() {
     }
 }
 
+function scrollAccelerator() {
+    let progress = getScrollProgress();
+    let banner_img = document.getElementById('banner-img');
+    banner_img.setAttribute('style', 'position: relative; top: ' + (progress.pixel*0.6).toString() + 'px;');
+}
+
 (function() {
     window.addEventListener('load', function() {
         updateHeader();
-        window.addEventListener('scroll', updateHeader);
+        window.addEventListener('scroll', function() {
+            updateHeader();
+            scrollAccelerator();
+        });
     });
 })();
