@@ -82,5 +82,5 @@ body {
 
 .share-btn-item:hover {
 	background: orange;
-	color: white;
+	color: white !important;
 }
